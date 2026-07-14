@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="ORYN">
+  <title>ORYN aperture mark</title>
+  <!-- Open ring = identity / aperture. White on transparent, scales infinitely. -->
+  <path d="M60 22 A38 38 0 1 1 33.1 33.1" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="60" cy="60" r="4.4" fill="#FFFFFF"/>
+</svg>

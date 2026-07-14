@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       META / SEO
+  ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+
+  <title>ORYN — Creator Infrastructure Company</title>
+  <meta name="description" content="ORYN is a creator infrastructure company. We treat a creator's identity as the asset and build the business around it — brand positioning, websites, media kits, sponsorship tracking, AI workflows, analytics, contracts, and CRM." />
+  <meta name="keywords" content="creator infrastructure, creator business, identity, brand positioning, media kit, sponsorship tracking, creator CRM, AI workflows, content systems, ORYN" />
+  <meta name="author" content="ORYN" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://ianeeliza.github.io/ORYN/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ORYN — Creator Infrastructure Company" />
+  <meta property="og:description" content="We treat a creator's identity as the asset and build the business around it — positioning, website, media kit, sponsorships, AI workflows, analytics, contracts, and CRM." />
+  <meta property="og:site_name" content="ORYN" />
+  <meta property="og:url" content="https://ianeeliza.github.io/ORYN/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ORYN — Creator Infrastructure Company" />
+  <meta name="twitter:description" content="We treat a creator's identity as the asset and build the business around it — positioning, website, media kit, sponsorships, AI workflows, analytics, contracts, and CRM." />
+
+  <!-- Favicon (inline SVG monogram) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23000000'/><path d='M50 18 A32 32 0 1 1 27.4 27.4' fill='none' stroke='%23ffffff' stroke-width='3' stroke-linecap='round'/><circle cx='50' cy='50' r='4' fill='%23ffffff'/></svg>" />
+
+  <!-- Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured Data (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ORYN",
+    "description": "Creator infrastructure company. We treat a creator's identity as the asset and build the business around it.",
+    "url": "https://ianeeliza.github.io/ORYN/",
+    "slogan": "Identity. Business. Infrastructure.",
+    "sameAs": [
+      "https://www.instagram.com/joinoryn",
+      "https://x.com/joinoryn"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============================================================
+       NAVIGATION — sticky, glass effect
+  ============================================================ -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner" aria-label="Primary">
+      <a href="#home" class="nav__logo" aria-label="ORYN home">ORYN</a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn--ghost nav__cta">Book Consultation</a>
+
+      <!-- Mobile menu toggle -->
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section class="hero" id="home">
+      <!-- Particle canvas background -->
+      <canvas class="hero__canvas" id="particles" aria-hidden="true"></canvas>
+
+      <div class="hero__content container">
+        <p class="hero__eyebrow reveal">Creator Infrastructure Company</p>
+
+        <h1 class="hero__title reveal">
+          <span>Identity.</span>
+          <span>Business.</span>
+          <span>Infrastructure.</span>
+        </h1>
+
+        <p class="hero__subtitle reveal">
+          You built the audience. We build the business behind your identity —
+          positioning, website, media kit, sponsorships, contracts, analytics, and the
+          AI systems that run it all.
+        </p>
+
+        <div class="hero__actions reveal">
+          <a href="#contact" class="btn btn--primary">Book Consultation</a>
+          <a href="#services" class="btn btn--ghost">View Services</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+    ============================================================ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__label">What We Build</p>
+          <h2 class="section__title">Everything a creator needs to run like a company.</h2>
+          <p class="section__lead">
+            Not three posts a week. The full operating system behind your identity —
+            the assets, systems, and automation a modern creator business runs on.
+          </p>
+        </header>
+
+        <div class="services__grid">
+          <!-- Each card carries an index for staggered reveal -->
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">01</span>
+            <h3 class="card__title">Brand Positioning</h3>
+            <p class="card__text">The strategy that defines how the market reads your identity — and what you can charge for it.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">02</span>
+            <h3 class="card__title">Website</h3>
+            <p class="card__text">A flagship digital home that turns your audience into a business.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">03</span>
+            <h3 class="card__title">Media Kit</h3>
+            <p class="card__text">A polished, always-current kit that closes brand deals on your behalf.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">04</span>
+            <h3 class="card__title">Sponsorship Tracking</h3>
+            <p class="card__text">Every deal, deliverable, and deadline organized — nothing dropped, nothing missed.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">05</span>
+            <h3 class="card__title">AI Workflows</h3>
+            <p class="card__text">Intelligent automation running the repetitive work behind the scenes, around the clock.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">06</span>
+            <h3 class="card__title">Content Systems</h3>
+            <p class="card__text">Repeatable systems that turn output into a machine instead of a scramble.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">07</span>
+            <h3 class="card__title">Analytics</h3>
+            <p class="card__text">Clear signal on what's growing, what's converting, and what's worth your time.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">08</span>
+            <h3 class="card__title">Contracts</h3>
+            <p class="card__text">Professional agreements that protect your rate, your rights, and your reputation.</p>
+          </article>
+
+          <article class="card reveal" tabindex="0">
+            <span class="card__no">09</span>
+            <h3 class="card__title">CRM</h3>
+            <p class="card__text">Every brand, manager, and partner relationship organized in one place.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PROCESS — timeline
+    ============================================================ -->
+    <section class="section section--alt" id="process">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__label">Process</p>
+          <h2 class="section__title">A deliberate path to influence.</h2>
+          <p class="section__lead">Six phases. No wasted motion. Each stage compounds on the last.</p>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__no">01</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">Discovery</h3>
+              <p class="timeline__text">We map your ambitions, audience, and the identity you want to command.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__no">02</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">Identity Audit</h3>
+              <p class="timeline__text">A forensic review of your current presence, perception, and untapped leverage.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__no">03</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">Brand Architecture</h3>
+              <p class="timeline__text">We design the system — positioning, voice, and visual identity — that defines you.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__no">04</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">AI Implementation</h3>
+              <p class="timeline__text">Agents, automation, and intelligent workflows are deployed to run operations.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__no">05</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">Launch</h3>
+              <p class="timeline__text">A coordinated rollout that introduces the identity to the world with precision.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__no">06</span>
+            <div class="timeline__body">
+              <h3 class="timeline__title">Ongoing Management</h3>
+              <p class="timeline__text">Continuous optimization, protection, and growth — human strategy, AI execution.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         AI / TECHNOLOGY
+    ============================================================ -->
+    <section class="section ai" id="technology">
+      <div class="container">
+        <header class="section__head section__head--center reveal">
+          <p class="section__label">Technology</p>
+          <h2 class="section__title ai__title">Powered by Intelligence.</h2>
+          <p class="section__lead ai__lead">
+            ORYN is AI-first by design. Beneath every creator we build is a network of
+            AI agents, automation, and intelligent systems — running research, operations,
+            and growth around the clock. Human strategy sets the direction. Intelligence
+            does the work.
+          </p>
+        </header>
+
+        <div class="ai__grid">
+          <div class="ai__cell reveal"><h3>AI Agents</h3><p>Autonomous operators handling execution across every function.</p></div>
+          <div class="ai__cell reveal"><h3>Automation</h3><p>Intelligent workflows that remove manual work end to end.</p></div>
+          <div class="ai__cell reveal"><h3>Analytics</h3><p>Real-time signal on audience, sentiment, and performance.</p></div>
+          <div class="ai__cell reveal"><h3>Research</h3><p>Continuous market and competitor intelligence at scale.</p></div>
+          <div class="ai__cell reveal"><h3>Scheduling</h3><p>Coordinated calendars, content, and commitments — automatically.</p></div>
+          <div class="ai__cell reveal"><h3>CRM</h3><p>Relationship intelligence that never lets an opportunity slip.</p></div>
+          <div class="ai__cell reveal"><h3>Knowledge Systems</h3><p>A living memory of every brand, decision, and asset.</p></div>
+          <div class="ai__cell reveal"><h3>Content Generation</h3><p>On-brand output produced at the speed of the platform.</p></div>
+          <div class="ai__cell reveal"><h3>Business Operations</h3><p>The entire back office, run by intelligent systems.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         OPERATING SYSTEM — dashboard graphics
+    ============================================================ -->
+    <section class="section os" id="platform">
+      <div class="container">
+        <header class="section__head section__head--center reveal">
+          <p class="section__label">The Operating System</p>
+          <h2 class="section__title">Your entire business, in one view.</h2>
+          <p class="section__lead">
+            Audience, deals, contracts, and content — unified into a single system,
+            kept current in real time by AI.
+          </p>
+        </header>
+
+        <div class="dash reveal">
+          <div class="dash__bar">
+            <span class="dash__title">ORYN Dashboard</span>
+            <span class="dash__chip">Live preview</span>
+          </div>
+
+          <div class="dash__grid">
+            <!-- Growth chart -->
+            <article class="panel panel--chart">
+              <div class="panel__head">
+                <span>Audience growth</span>
+                <span class="panel__delta">Trending up</span>
+              </div>
+              <svg class="chart" viewBox="0 0 560 200" preserveAspectRatio="none" role="img" aria-label="Audience growth chart trending upward">
+                <g stroke="#1c1c1c" stroke-width="1">
+                  <line x1="0" y1="40" x2="560" y2="40"/>
+                  <line x1="0" y1="90" x2="560" y2="90"/>
+                  <line x1="0" y1="140" x2="560" y2="140"/>
+                  <line x1="0" y1="190" x2="560" y2="190"/>
+                </g>
+                <path class="chart__area" d="M10,170 L70,158 L130,162 L190,138 L250,128 L310,104 L370,92 L430,66 L490,50 L550,34 L550,190 L10,190 Z"/>
+                <path class="chart__line" d="M10,170 L70,158 L130,162 L190,138 L250,128 L310,104 L370,92 L430,66 L490,50 L550,34"/>
+                <circle class="chart__dot" cx="550" cy="34" r="4"/>
+              </svg>
+            </article>
+
+            <!-- Sponsorship pipeline -->
+            <article class="panel panel--pipe">
+              <div class="panel__head"><span>Sponsorship pipeline</span></div>
+              <ul class="pipe">
+                <li><span>Athletic brand</span><em class="pill pill--live">Live</em></li>
+                <li><span>SaaS partner</span><em class="pill pill--review">In review</em></li>
+                <li><span>Audio platform</span><em class="pill pill--paid">Paid</em></li>
+                <li><span>Beverage brand</span><em class="pill pill--draft">Draft</em></li>
+              </ul>
+            </article>
+
+            <!-- Metric sparklines -->
+            <article class="panel panel--metrics">
+              <div class="metric">
+                <span class="metric__label">Deal flow</span>
+                <svg class="spark" viewBox="0 0 120 34" preserveAspectRatio="none" aria-hidden="true"><path d="M2,28 L20,24 L38,26 L56,16 L74,18 L92,9 L118,5"/></svg>
+              </div>
+              <div class="metric">
+                <span class="metric__label">Content output</span>
+                <svg class="spark" viewBox="0 0 120 34" preserveAspectRatio="none" aria-hidden="true"><path d="M2,26 L22,22 L40,24 L60,14 L80,12 L100,10 L118,4"/></svg>
+              </div>
+              <div class="metric">
+                <span class="metric__label">Response time</span>
+                <svg class="spark spark--down" viewBox="0 0 120 34" preserveAspectRatio="none" aria-hidden="true"><path d="M2,8 L22,12 L40,10 L60,18 L80,22 L100,26 L118,29"/></svg>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="os__note reveal">Illustrative preview of the system we build and run for every creator.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIFFERENCE — positioning / market gap
+    ============================================================ -->
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="section__label">The Difference</p>
+          <h2 class="section__title">Not management. Infrastructure.</h2>
+          <p class="section__lead">
+            Most agencies offer to post for you. We treat your identity as the asset it
+            is — and build the systems, assets, and automation that turn a following into
+            a company.
+          </p>
+        </header>
+
+        <div class="ai__grid">
+          <div class="ai__cell reveal">
+            <h3>Infrastructure, not posts</h3>
+            <p>We don't sell "three posts a week." We build the positioning, systems, and assets a creator business runs on.</p>
+          </div>
+          <div class="ai__cell reveal">
+            <h3>Identity at the center</h3>
+            <p>Your identity is the asset. Everything we build — brand, deals, systems — compounds its value.</p>
+          </div>
+          <div class="ai__cell reveal">
+            <h3>Built to scale</h3>
+            <p>The bigger your audience, the more you need a company behind it. We build and run that company.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA
+    ============================================================ -->
+    <section class="cta" id="contact">
+      <div class="container cta__inner reveal">
+        <h2 class="cta__title">You built the audience. We build the company.</h2>
+        <p class="cta__text">Partner with the infrastructure team behind serious creators.</p>
+        <a href="mailto:joinoryn@icloud.com?subject=Partnership%20Inquiry" class="btn btn--primary btn--lg">Start Your Partnership</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__logo">ORYN</span>
+        <p class="footer__tag">Identity.<br />Business.<br />Infrastructure.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <div class="footer__col">
+          <h4>Company</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#technology">Technology</a>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <a href="mailto:joinoryn@icloud.com">joinoryn@icloud.com</a>
+          <a href="#contact">Book Consultation</a>
+        </div>
+      </nav>
+
+      <div class="footer__social" aria-label="Social links">
+        <a href="https://x.com/joinoryn" target="_blank" rel="noopener" aria-label="ORYN on X" title="X">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644Z"/></svg>
+        </a>
+        <a href="https://instagram.com/joinoryn" target="_blank" rel="noopener" aria-label="ORYN on Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16Zm0 1.8c-3.15 0-3.52.01-4.76.07-1.15.05-1.77.24-2.19.41-.55.21-.94.47-1.35.88-.41.41-.67.8-.88 1.35-.17.42-.36 1.04-.41 2.19-.06 1.24-.07 1.61-.07 4.76s.01 3.52.07 4.76c.05 1.15.24 1.77.41 2.19.21.55.47.94.88 1.35.41.41.8.67 1.35.88.42.17 1.04.36 2.19.41 1.24.06 1.61.07 4.76.07s3.52-.01 4.76-.07c1.15-.05 1.77-.24 2.19-.41.55-.21.94-.47 1.35-.88.41-.41.67-.8.88-1.35.17-.42.36-1.04.41-2.19.06-1.24.07-1.61.07-4.76s-.01-3.52-.07-4.76c-.05-1.15-.24-1.77-.41-2.19a3.6 3.6 0 0 0-.88-1.35 3.6 3.6 0 0 0-1.35-.88c-.42-.17-1.04-.36-2.19-.41-1.24-.06-1.61-.07-4.76-.07Zm0 3.06A4.98 4.98 0 1 0 12 17.06 4.98 4.98 0 0 0 12 7.02Zm0 8.22A3.24 3.24 0 1 1 12 8.76a3.24 3.24 0 0 1 0 6.48Zm6.34-8.42a1.16 1.16 0 1 1-2.32 0 1.16 1.16 0 0 1 2.32 0Z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer__bottom container">
+      <p>&copy; <span id="year">2026</span> ORYN. All rights reserved.</p>
+      <p class="footer__fineprint">Human strategy. AI execution.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

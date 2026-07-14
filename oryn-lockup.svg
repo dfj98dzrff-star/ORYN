@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 120" width="460" height="120" role="img" aria-label="ORYN">
+  <title>ORYN lockup — mark + wordmark</title>
+  <!-- Aperture mark -->
+  <path d="M60 22 A38 38 0 1 1 33.1 33.1" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="60" cy="60" r="5" fill="#FFFFFF"/>
+  <!-- Wordmark. For production, outline this text so it renders without Inter installed. -->
+  <text x="146" y="74" fill="#FFFFFF"
+        font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="52" font-weight="500" letter-spacing="18">ORYN</text>
+</svg>
