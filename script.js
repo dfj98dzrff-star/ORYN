@@ -26,6 +26,21 @@
   window.addEventListener("scroll", onScroll, { passive: true });
 
   /* --------------------------------------------------------
+     2b. SCROLL PROGRESS BAR (premium detail)
+  -------------------------------------------------------- */
+  const progress = document.getElementById("scrollProgress");
+  if (progress) {
+    const updateProgress = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      const pct = max > 0 ? (h.scrollTop / max) * 100 : 0;
+      progress.style.width = pct + "%";
+    };
+    updateProgress();
+    window.addEventListener("scroll", updateProgress, { passive: true });
+  }
+
+  /* --------------------------------------------------------
      3. MOBILE MENU
   -------------------------------------------------------- */
   const toggle = document.getElementById("navToggle");
