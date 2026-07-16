@@ -634,6 +634,16 @@ h1, h2, h3, h4 { font-weight: 600; line-height: 1.05; letter-spacing: -0.03em; }
   transform: rotate(-45deg);
 }
 .pricing__btn { width: 100%; margin-top: 0.5rem; }
+/* Keep our styling even when Gumroad injects its own .gumroad-button CSS */
+.pricing .pricing__btn.gumroad-button {
+  background: var(--text);
+  color: var(--bg);
+  border: none;
+  height: auto;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  font-family: var(--font);
+}
 .pricing__secure {
   text-align: center; color: var(--text-muted);
   font-size: 0.75rem; margin-top: 1.1rem; letter-spacing: 0.03em;
